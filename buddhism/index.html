@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/main.css">
+<title>Buddhism</title>
+</head>
+<div class="header" id="myHeader">
+  <h1>Buddhism</h1>
+</div>
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<!-- Navigation -->
+
+<nav class="nav">
+  <a href="index.html" class="w3-button w3-bar-item">Home</a>
+  <a href="content/beliefs/index.html" class="w3-button w3-bar-item">Beliefs</a>
+  <a href="content/founding/index.html" class="w3-button w3-bar-item">Founding</a>
+  <a href="index.html" class="w3-button w3-bar-item">Schools</a>
+</nav>
+
+<body>
+<main class="wrapper">
+  <section class="section parallax bg1">
+    <h1>Buddhism is a religion or way of life based on the teachings of the Buddha.</h1>
+  </section>
+  <section class="section static">
+  <p>It began in Ancient India and has since spread throughout the world to become the fourth largest world religion. There are a wide variety of Buddhist schools with the main ones being Mahayana and Theravada but many of these schools are interrelated. The ultimate goal of Buddhism is to reach enlightenment or <i>nirvana</i>. Reaching nirvana essentially means reaching a complete sense of self-awareness and peace of mind. Nirvana can be seen as a state of liberation and unattachment, it can be reached through meditation. The Buddha was believed to have been the first person to reach nirvana. Buddhism is about acquiring a state of freedom from spiritual, emotional or mental restrictions.</p>
+  </section>
+</main>
+</body>
+</html>

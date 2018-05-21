@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../css/main.css">
+<title>Buddhism</title>
+</head>
+<div class="header" id="myHeader">
+  <h1>Buddhism</h1>
+</div>
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<!-- Navigation -->
+
+<nav class="nav">
+  <a href="../../index.html" class="w3-button w3-bar-item">Home</a>
+  <a href="../beliefs/index.html" class="w3-button w3-bar-item">Beliefs</a>
+  <a href="../founding/index.html" class="w3-button w3-bar-item">Founding</a>
+  <a href="index.html" class="w3-button w3-bar-item">Schools</a>
+</nav>
+
+<body>
+<main class="wrapper">
+  <section class="section parallax bg1">
+  <h1>Different Schools Of Buddhism</h1>
+  </section>
+  
+<section class="section static">
+<p>The main Buddhist schools are Theravada, Mahayana and Vajrayana, although there are many more than these.</p>
+</section>
+<section class="section parallax bg2">
+<h1> Mahayana</h1>
+</section>
+<section class="section static">
+<p>Mahayana ('Greater Vehicle') use texts called sutras. They believe that anyone can be a Buddhist and that Nirvana can be achieved through a variety of methods, not just meditation. They also believe that there is no distinction between self and other. There is  an emphasis on helping other beings as well as self liberation, which contrasts with Theravada Buddhism. In Mahayana Buddhism, other Buddhas from the past and future are also accepted. </p>
+</section>
+<section class="section parallax bg3">
+<h1>Theravada</h1>
+</section>
+<section class="section static">
+<p>Theravada or 'School of the Elders' promotes teachings about Karma. This is essentially a concept based on cause and effect. The goal of this school is utter self-liberation. Vegetarinism is not necessary in this school. It has a strict adherence to the original teachings of the Buddha and hence may be seen as the more conservative of the schools. This school encourages a person to gain insights from their own experiences and reasonings.</p>
+</section>
+<section class="section parallax bg4">
+<h1>Vajrayana</h1>
+</section>
+<section class="section static">
+<p>Vajrayana Buddhism of the 'Diamond Vehicle', had more complex rituals than the other Buddhist schools. There is a focus on the guru, who helps his disciples achieve enlightnment. This school believes that enlightenment may take many years or over a lifetime to reach but through the methods of this school, can be achieved in a single lifetime.</p>
+</section>
+</main>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../css/main.css">
+<title>Buddhism</title>
+</head>
+<div class="header" id="myHeader">
+  <h1>Buddhism</h1>
+</div>
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<!-- Navigation -->
+
+<nav class="nav">
+  <a href="../../index.html" class="w3-button w3-bar-item">Home</a>
+  <a href="../beliefs/index.html" class="w3-button w3-bar-item">Beliefs</a>
+  <a href="index.html" class="w3-button w3-bar-item">Founding</a>
+  <a href="../schools/index.html" class="w3-button w3-bar-item">Schools</a>
+</nav>
+
+<body>
+<main class="wrapper">
+  <section class="section parallax bg1">
+  <h1>Founding Of Buddhism</h1>
+  </section>
+  <section class="section static">
+  <p>Buddha was founded by a man named Siddharta Gautama who was born in Lumbini in the sixth century. Buddhism takes various different forms but is based on his teachings, called <i>Dharma. </i></p>
+  </section>
+  <section class="section parallax bg2">
+  <h1>Life of Siddharta</h1>
+  </section>
+  <section class="static">
+  <p><br>Siddharta was rumoured to have been born a royal prince and at his birth it was prediced that he would be a renouncer. To prevent this, his father tried to supply him with many luxuries. As he was growing up, Siddharta became more aware of human suffering. This made him realise that all the luxuries that he recieved could not change the envitablility of suffering. He sought many teachers and meditated in a forest until near starvation. Eventually, he realised this was only deepening the suffering, so he ate a meal and sat under a tree to meditate. Some time later, he attained <i>Nirvana</i>.<br>
+</p></section>
+<section class="section parallax bg3">
+<h1>The Awakened One</h1>
+</section>
+<section class="section static">
+<p>He is now given the name the Buddha meaning the 'Awakened One'. He began to spread his teachings about suffering and compassion. These teachings are in the forms of the Four Noble Truths and the Eightfold Path. <br> After the Buddha's death, his followers spread the word of the Buddha's teachings and many different schools developed. An Mauryan Emperor named Ashoka the Great turned Buddhism into the state religion of India.</p>
+</section>
+
+
+</main>
+<!--
+<footer class="footer">
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+</footer>
+-->
+</body>
+</html>
